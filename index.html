@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaJam Coffee House Jobs</title>
+    <link rel="stylesheet" href="job.css">
+</head>
+<body>
+    <header>
+        <h1>JavaJam Coffe House</h1>
+    </header>
+    <div id="herojobs"></div>
+    <main>
+    <h2>Jobs at JavaJam</h2>
+    <p>Want to work at JavaJam?Fill out the form
+        below to start yourapplication.</p>
+    
+    
+    <form method="post" action="https://webdevbasics.net/scripts/javajam8.php">
+        <label for="myName">*Name:</label>
+        <input type="text" id="myName" name="Myname" required="required">
+    
+        <label for="myEmail">*Email</label>
+        <input type="text" id="myEmail" name="myEmail" required="required" pattern=".+@.+\..+" required placeholder="Enter a valid email">
+      
+        <label for="myExperience">*Experience</label>
+        <textarea name="myExperience" id="myExperience" cols="20" rows="2" required="required"></textarea>
+        
+        <input type="submit" id="mySubmit" value="Apply Now">
+    </form>
+    
+    </main>
+    <footer>Copyyright &copy; 2018 JavaJam Coffe House
+        <br>
+        <a href="job.html">Javajam@gmail.com</a>
+    </footer>
+</body>
+</html>
